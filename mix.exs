@@ -15,7 +15,7 @@ defmodule Issues.Mixfile do
       version:         "0.0.1",
       name:            "Issues",
       source_url:      "https://github.com/pragdave/issues",
-      escript:         escript_config,
+      escript:         escript_config(),
       build_embedded:  Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps:            deps()
